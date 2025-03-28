@@ -1,0 +1,70 @@
+.navbar {
+    width: 100%;
+    padding: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 20px; /* space between dropdowns and login button */
+    align-items: center;
+  }
+  
+  .dropdown-button {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-button .dropdown-toggle {
+    border-radius: 16px !important;
+    padding: 8px 16px;
+    font-weight: 500;
+    background-color: #f1f5f9;
+    border: none;
+    color: black !important;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-button .dropdown-toggle:hover {
+    background-color: #e0e7ff;
+    color: black !important;
+  }
+  
+  .login-button {
+    border-radius: 16px;
+    padding: 8px 20px;
+    font-weight: 500;
+    color: black;
+    background-color: #f1f5f9;
+    border: none;
+    transition: background-color 0.3s;
+    margin-left: 8px;
+  }
+  
+  .login-button:hover {
+    background-color: #e0e7ff;
+    color: black;
+  }
+  
